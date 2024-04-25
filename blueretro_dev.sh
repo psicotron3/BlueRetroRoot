@@ -1,4 +1,3 @@
 #!/bin/bash
-dir=$(dirname $(realpath $0))
-export IDF_TOOLS_PATH=$dir
-. $dir/esp-idf/export.sh
+export IDF_TOOLS_PATH=$HOME/BlueRetroRoot/
+. $HOME/BlueRetroRoot/esp-idf/export.sh

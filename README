@@ -31,7 +31,7 @@ But they are not tested, so YMMV and you're on your own.
    git clone https://github.com/darthcloud/BlueRetroRoot.git
    cd ~/BlueRetroRoot/
    git submodule update --init --recursive
-   export IDF_TOOLS_PATH=$(pwd)
+   export IDF_TOOLS_PATH=$HOME/BlueRetroRoot/
    cd esp-idf
    ./install.sh
    ```
